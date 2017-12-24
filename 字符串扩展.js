@@ -1,4 +1,4 @@
-//ES6为字符串提供了遍历接口
+d//ES6为字符串提供了遍历接口
 
 for (let i of 'hello') {
     console.log(i)
