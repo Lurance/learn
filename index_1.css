@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    background: #F0f0f0;
+
+    /*justify-content 用于指定 flex 项在 flex 方向（direction）上的对齐位置。*/
+    /*通过设置 justify-content:center和align-items:center，可以使 flex 项水平和垂直放置在 flex 容器的中心。*/
+    justify-content: center;
+
+    /*垂直于它的方向（交叉轴）上对齐 flex 项*/
+    align-items: center;
+
+    /*将flex排成一列*/
+    /*flex-direction: column;*/
+
+    /*将flex排成一列但是是相反方向*/
+    /*flex-direction: column-reverse;*/
+
+    /*将flex排成一行但是是相反方向*/
+    /*flex-direction: row-reverse;*/
+}
+
+.flex-container .flex-item {
+    padding: 20px;
+    background-color: #B1FF84;
+}
+
+.flex-container .flex-item:first-child {
+    background: #F5DE25;
+}
+
+.flex-container .flex-item:last-child{
+    background: #90D9F7;
+}
+
+.flex-bottom {
+    /*可以在某个特定的 flex 项上使用 align-self CSS 属性，来使该特定的 flex 项与容器中的其他 flex 项进行对齐。*/
+    align-self: end;
+}
